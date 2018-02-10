@@ -14,11 +14,13 @@
     "moment": "2.0.x",
     "btc-e": "0.0.x",
     "bitcoincharts": "0.0.x",
-    "emailjs": "0.3.x",
+    "emailjs": "2.0.0",
     "prompt-lite": "0.1.x",
     "bitstamp": "0.0.x"
   },
-  "engines": { "node": "0.10.x" },
+  "engines": {
+    "node": "0.10.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/askmike/gekko.git"
