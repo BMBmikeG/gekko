@@ -16,11 +16,19 @@
     "bitcoincharts": "0.0.x",
     "emailjs": "0.3.x",
     "prompt-lite": "0.1.x",
-    "bitstamp": "0.0.x"
+    "bitstamp": "0.0.x",
+    "snyk": "^1.88.0"
   },
-  "engines": { "node": "0.10.x" },
+  "engines": {
+    "node": "0.10.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/askmike/gekko.git"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
